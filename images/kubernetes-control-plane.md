@@ -1,3 +1,5 @@
+kubectl
+
 Master:
 
     API Server
