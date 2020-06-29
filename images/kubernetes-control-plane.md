@@ -2,7 +2,7 @@ kubeadm :   Easily bootstrap a secure kubernetes cluster
 
 kubectl :   
 
-Master:
+Control-palne(Master):
 
     kube-api-server
     kube-scheduler
@@ -10,7 +10,7 @@ Master:
     cloud-controller-manager
     etcd
   
-Nodes:
+Workers(Nodes):
 
     - Node1
       Kubelet
