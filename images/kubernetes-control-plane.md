@@ -1,17 +1,20 @@
-kubectl
+kubeadm :   Easily bootstrap a secure kubernetes cluster
+
+kubectl :   
 
 Master:
 
-    API Server
-    Scheduler
-    Controller Manager
+    kube-api-server
+    kube-scheduler
+    kube-controller-manager
+    cloud-controller-manager
     etcd
   
 Nodes:
 
     - Node1
-      Networking
       Kubelet
+      kube-proxy
       Container Runtime
       -   pod1
           -   container1
@@ -31,8 +34,8 @@ Nodes:
       OS
 
     - Node2
-      Networking
-      Kubelet
+      kubelet
+      kube-proxy
       Container Runtime
       -   pod1
           -   container1
@@ -52,8 +55,8 @@ Nodes:
       OS
 
     - Node3
-      Networking
       Kubelet
+      kube-proxy
       Container Runtime
       -   pod1
           -   container1
