@@ -1,0 +1,22 @@
+Kubernetes is
+    Portable ->
+    Extensible -> 
+  Platform for managing
+    Cotainerized
+      Workloads ->
+        &
+      Services ->
+  Facilitates
+    Declarative Configuration (YAML Configuration?) ->
+      &
+    Automation (API server Interface?) ->
+    
+It has a large, rapidly growing
+  ecosystem ->
+  
+Kuberenetes
+  Services ->
+  Support ->
+    &
+  Tools ->
+are widely available.
